@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
-    <html lang="en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Good Eats-Street Tacos</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -88,9 +88,7 @@
         </section>
         <aside>
             <h2>Need some side dishes?</h2>
-            <ul>
-                <div>
-                    <li>
+                <div class="sides">
                         <h3>Mexican Rice</h3>
                         <img src="images/mexican-rice.png" alt="Mexican Rice">
                         <p>Traditional recipe with a twist.</p>
@@ -127,10 +125,8 @@
                                 </svg>
                             </div>
                         </div>
-                    </li>
                 </div>
-                <div>
-                    <li>
+                <div class="sides">
                         <h3>Salsa</h3>
                         <img src="images/salsa.png" alt="Salsa">
                         <p>Just the right amount of spice.</p>
@@ -167,10 +163,8 @@
                                 </svg>
                             </div>
                         </div>
-                    </li>
                 </div>
-                <div>
-                    <li>
+                <div class="sides">
                         <h3>Guacamole</h3>
                         <img src="images/guacamole.png" alt="Guacamole">
                         <p>Fresh and healthy.</p>
@@ -207,10 +201,8 @@
                                 </svg>
                             </div>
                         </div>
-                    </li>
                 </div>
-                <div>
-                    <li>
+                <div class="sides">
                         <h3>Tortillas</h3>
                         <img src="images/tortillas.png" alt="Tortillas">
                         <p>Easy to make and so good.</p>
@@ -247,9 +239,7 @@
                                 </svg>
                             </div>
                         </div>
-                    </li>
                 </div>
-            </ul>
           </aside>
           <nav class="topnav">
             <!-- hamburger -->
@@ -272,13 +262,15 @@
                 <path d="M20 15v6h-1v-3" />
                 <line x1="8" y1="12" x2="8" y2="18" />
               </svg></li>
-              <li class="hidenav"><img src="images/breakfast.png" alt="Breakfast icon"> Breakfast</li>
-              <li class="hidenav"><img src="images/brunch.png" alt="Brunch icon"> Brunch</li>
-              <li class="hidenav"><img src="images/lunch.png" alt="Lunch icon"> Lunch</li>
-              <li class="hidenav"><img src="images/dinner.png" alt="Dinner icon"> Dinner</li>
-              <li class="hidenav"><img src="images/appetizers.png" alt="Appetizers icon"> Appetizers</li>
-              <li class="hidenav"><img src="images/desserts.png" alt="Desserts icon"> Desserts</li>
-              <li class="hidenav"><img src="images/beverages.png" alt="Beverages icon"> Beverages</li>
+              
+                <li class="hidenav breakfast"><img src="images/breakfast.png" alt="Breakfast icon"> Breakfast</li>
+                <li class="hidenav brunch"><img src="images/brunch.png" alt="Brunch icon"> Brunch</li>
+                <li class="hidenav lunch"><img src="images/lunch.png" alt="Lunch icon"> Lunch</li>
+                <li class="hidenav dinner"><img src="images/dinner.png" alt="Dinner icon"> Dinner</li>
+                <li class="hidenav appetizers"><img src="images/appetizers.png" alt="Appetizers icon"> Appetizers</li>
+                <li class="hidenav desserts"><img src="images/desserts.png" alt="Desserts icon"> Desserts</li>
+                <li class="hidenav beverages"><img src="images/beverages.png" alt="Beverages icon"> Beverages</li>
+                
               <!-- user -->
               <li class="topnavwidth"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -328,7 +320,7 @@
                 <p>Copyright 2022</p>
                 <p>Taco Cheesington</p>
             </div>
-            <div class="image-container"><img src="images/Taco-cheesington.png" alt="Taco Cheesington" /></div>
+            <div class="image-container"><img src="images/Taco-cheesington.png" alt="Taco Cheesington"></div>
         </footer>
     </body>
 </html>
